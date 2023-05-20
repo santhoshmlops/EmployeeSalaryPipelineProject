@@ -10,3 +10,6 @@ TEST_DATA_PATH:str = "test.csv"
 RAW_DATA_PATH:str = "raw.csv"
 
 
+# Data Transformation Constant:
+CATEGORICAL_FEATURES = ['workclass', 'education', 'marital-status', 'occupation','relationship', 'race', 'gender', 'native-country']
+DROP = ["education","fnlwgt","native-country"]
